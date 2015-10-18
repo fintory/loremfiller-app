@@ -1,12 +1,25 @@
 {
-  "name": "loremipsum",
+  "name": "loremfiller-app",
+  "productName": "LoremFiller",
+  "repository": "kreativgebiet/loremipsum-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "electronVersion": "0.33.3",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    "build": "electron-packager . LoremFiller --overwrite --asar --platform=darwin --arch=all --ignore='^/dist$' --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git --version=$npm_package_electronVersion"
   },
+  "files": [
+    "index.js",
+    "menu.js",
+    "toClipboard.js",
+    "assets/iconTemplate.png",
+    "assets/iconTemplate@2x.png"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
