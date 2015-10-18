@@ -8,10 +8,9 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "electronVersion": "0.33.3",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . LoremFiller --overwrite --asar --platform=darwin --arch=all --ignore='^/dist$' --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git --version=$npm_package_electronVersion"
+    "build": "rm -rf LoremFiller.app/ && electron-packager . LoremFiller --out=dist --prune --asar --platform=darwin --arch=all --overwrite --version=0.33.3"
   },
   "files": [
     "index.js",
@@ -23,8 +22,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "electron-packager": "^3.3.0",
-    "electron-prebuilt": "^0.25.2"
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.33.3"
   },
   "dependencies": {
     "lorem-ipsum": "^1.0.3"
