@@ -1,0 +1,20 @@
+{
+  "name": "loremipsum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^3.3.0",
+    "electron-prebuilt": "^0.25.2"
+  },
+  "dependencies": {
+    "lorem": "^0.4.0",
+    "lorem-ipsum": "^1.0.3"
+  }
+}
