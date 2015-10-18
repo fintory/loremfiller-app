@@ -8,5 +8,5 @@ app.on('ready', function(){
   var appIcon = new Tray('./assets/iconTemplate.png');
 
   app.dock.hide();
-  appIcon.setContextMenu(contextMenu);
+  appIcon.setContextMenu(contextMenu(app));
 });
