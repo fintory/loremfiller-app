@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "build": "rm -rf LoremFiller.app/ && electron-packager . LoremFiller --out=dist --prune --asar --platform=darwin --arch=all --overwrite --version=0.33.3"
+    "build": "rm -rf LoremFiller.app/ && electron-packager . LoremFiller --out=dist --prune --asar --platform=darwin --arch=all --overwrite --version=0.33.3 --icon=assets/dockIcon.icns"
   },
   "files": [
     "index.js",
