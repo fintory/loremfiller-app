@@ -8,7 +8,7 @@
     "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "electron-packager": "^3.3.0",
     "electron-prebuilt": "^0.25.2"
