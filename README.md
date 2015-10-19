@@ -1,10 +1,14 @@
 # LoremFiller
-
+<img width="150" align="right" src="https://github.com/kreativgebiet/loremfiller-app/blob/master/assets/dockIcon.png?raw=true">
 Simple menubar application for generating dummy text
 
 ## [Download](https://github.com/kreativgebiet/loremipsum-app/releases/download/v1.0.0/LoremFiller-1.0.0.zip)
 
 To download [click here](https://github.com/kreativgebiet/loremipsum-app/releases/download/v1.0.0/LoremFiller-1.0.0.zip)
+
+## Screenshot
+
+![Screenshot of LoremFiller](assets/screenshot.png)
 
 ## Development
 
