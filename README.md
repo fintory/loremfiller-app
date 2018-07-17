@@ -1,4 +1,7 @@
 # LoremFiller
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/kreativgebiet/loremfiller-app.svg)](https://greenkeeper.io/)
+
 [<img width="150" align="right" src="https://github.com/kreativgebiet/loremfiller-app/blob/master/assets/dockIcon.png?raw=true">](https://github.com/kreativgebiet/loremipsum-app/releases/download/v1.0.0/LoremFiller-1.0.0.zip)
 Simple menubar application for generating dummy text
 
